@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Aventura from "./components/Aventura";
-import Opcion from './components/Opcion';
-import Historial from "./components/Historial";
-import styles from "./index.module.css";
-import data from "./components/data.json";
-import BotonDeReset from "./components/BotonDeReset"
+import Aventura from "./Aventura";
+import Opcion from './Opcion';
+import Historial from "./Historial";
+import styles from "../styles/index.module.css";
+import data from "../data.json";
+import BotonDeReset from "./BotonDeReset"
 
 
 export default class App extends Component{
