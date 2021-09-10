@@ -69,7 +69,6 @@ handleReset = () => {
           <Opcion id={"B"} opcion={this.state.opciones[1]} handleClick={this.handleOptionClick}/>
         </div>
       </div>
-        {/* <Opciones opciones={this.state.opciones} update={this.update}/> */}
         <div>
         <BotonDeReset handleClick={this.handleReset} estado={this.state.botonReset}/>
         <Historial listaDeSelecciones={this.state.historial}/>
