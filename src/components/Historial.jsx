@@ -21,7 +21,6 @@ componentDidUpdate = (prevProps) => {
 }
 
   
-
 render(){
   return (
     <div className={styles.recordatorio}>
